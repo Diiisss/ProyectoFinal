@@ -1,0 +1,48 @@
+/* https://www.colorzilla.com/gradient-editor/ */
+/* W3school usar */ /* resetear css IMPORTANTE */
+/* https://sass-lang.com/guide */
+
+/*HEADER INDEX*/
+
+header {
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: #ffffffff;
+        font-family: 'IBM Plex Sans Devanagari', sans-serif;
+        span {
+            i {
+                .far {
+                    font-size: 15px;
+                    color: #ffffffff;
+                }
+            }
+        }
+    }
+}
+/*MAIN INDEX*/
+#main-index {
+    
+    .containerImage {
+        width: 100%;
+
+        .containerImage__center {
+            justify-content: center;
+            
+            #logoIndex {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 300px;
+                height: 300px;
+                transition: height 1s, width 1s; 
+            }
+            
+            #logoIndex:hover {
+                height: 450px;
+                width: 450px;
+            }
+        }
+    }
+}

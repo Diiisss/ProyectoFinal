@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="robots" content="index">
+    <meta name="description"  content="En nuestro Menu podras ver fotos propias que te dejaran apreciar la variedad y la calidad de nuestras Zapatillas">
+    <meta name="keywords" content="Zapatillas, Variedad, Coolsteps">
+    <title>Coolsteps | Nuestras Zapatillas</title>
+    <script></script>
+    <!--GOOGLE FONTS LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--Link Animaciones WOW-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Link Css-->
+    <link rel="stylesheet" href="../css/indexScss.css">
+   <!--Link Icono-->
+   <script src="https://kit.fontawesome.com/35050e35d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header><!--Inicio Header-->
+        <nav class="menu">
+            <label class="logo">Coolsteps</label>
+            <ul class="menu_items">    
+                <li class="active">
+                    <a href="menu.html">Menu</a>
+                </li>    
+                <li>
+                    <a href="ofertas.html">Ofertas</a>
+                </li>              
+                <li>
+                    <a href="informacion.html">Informacion</a>
+                </li>
+                <li id="formulario">
+                    <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        Registrarse
+                    </a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"          aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                          <h3 class="offcanvas-title" id="offcanvasExampleLabel">Coolsteps</h3>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            Obten un 15% de desc en tu primera compra. Enterate de nuestros nuevos ingresos y nuestras promociones antes que todos!
+                          </div>
+                            <form>
+                                <div class="col g-3">
+                                    <div class="col mt-5">
+                                        <label for="userName" class="form-label">Nombre y Apellido:</label>  
+                                        <input type="text" class="form-control" placeholder="Diego" aria-label="First name">
+                                    </div>
+                                    <div class="col mt-3">
+                                        <input type="text" class="form-control" placeholder="Suarez" aria-label="Last name">
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="Email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="diego.is@...">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo con nadie mas</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Password" class="form-label">Contraseña:</label>
+                                    <input type="password" class="form-control" id="Password" placeholder="Soydiego123">
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </li> 
+            </ul> 
+            <span class="btn_menu">
+                <i class="fas fa-bars"></i>
+            </span>
+        </nav>
+    </header><!--Fin Header-->
+    <main><!--Inicio Main-->
+        <section class="sombracarrusel mx-auto" style="padding: 10px;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../multimedia/carousel/Diseño sin título (15).png" class="d-block w-100 h-50" alt="Air Jordan One Roja">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../multimedia/carousel/Diseño sin título (29).png" class="d-block w-100" alt="Nike Shadow Pastel">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../multimedia/carousel/Diseño sin título (39).png" class="d-block w-100" alt="Nike Air Force One Blanca">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../multimedia/carousel/Diseño sin título (51).png" class="d-block w-100" alt="Air Jordan One Gris">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../multimedia/carousel/Diseño sin título (97).png" class="d-block w-100" alt="Vans Old Skool Negra">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <h2>Nike Air Jordan One</h2>
+        <div class="containerImages">
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1745.jpg" alt="Air Jordan Gris ">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1144.jpg" alt="Air jordan Amarillo">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1181.jpg" alt="Air Jordan Negro">
+            </picture>
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1318.jpg" alt="Air Jordan Rojo">
+            </picture>
+        </div>
+
+        <h2>Nike Air Jordan Low</h2>
+        <h2 class="position">Nike Air Force One</h2>
+        <div class="containerImages"> 
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1983.jpg" alt="Air Jordan Low Negras ">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1588.jpg" alt="Air Force One Blancas">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1503.jpg" alt="Air Force One Negras">
+            </picture>
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1848.jpg" alt="Air Force One Marrones">
+            </picture>
+        </div>
+ 
+        <h2>Nike Shadow</h2>
+        <h2>Nike Air Max 90</h2>
+        <div class="containerImages">
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1392.jpg" alt="Nike Shadow Pastel">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1414.jpg" alt="Nike Shadow Blanca">
+            </picture>
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1883.jpg" alt="Nike Air Max 90 Blanca">
+            </picture>
+        </div>
+
+        <h2>Adidas Falcon</h2>
+        <h2>Adidas Ultra boost</h2>
+        <div class="containerImages">
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1236.jpg" alt="Adidas Falcon Negras">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1704_Original.jpg" alt="Adidas Falcon">
+            </picture>
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1788.jpg" alt="Adidas Ultra Boost Azules">
+            </picture>
+        </div>
+
+        <h2>Vans Old Skool</h2>
+        <div class="containerImages">
+            <picture>
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1870.jpg" alt="Vans Negra y Marron">
+            </picture>
+            <picture class="noMostrar">
+                <img class="containerImages__imageProduct" src="../multimedia/fotosMarca_de_agua/DSC_1998.jpg" alt="Vans Negra y Blanca">
+            </picture>
+        </div>
+    </main><!--Fin Main-->
+    <footer class="container-fluid mt-3"><!--Inicio Footer-->
+        <nav> 
+            <div class="encontrar">
+                <h3>Nuestras redes:</h3>
+                <ul>              
+                    <li>
+                        <a class="nav-link habilitada fs-4" href="https://www.instagram.com/coolsteps__" target="_blank"><i class="fab fa-instagram-square"> Instagram</i></a>
+                    </li>              
+                    <li>
+                        <a class="nav-link habilitada fs-4" href="https://www.facebook.com/coolsteps__" target="_blank"><i class="fab fa-facebook-f"> Facebook</i></a>
+                    </li> 
+                </ul>    
+            </div>
+            <div class="contacto">
+                <h3>Contacto creador:</h3>
+                <ul>
+                    <li>
+                        <a class="nav-link habilitada fs-4" target="_blank" href="www.linkedin.com/"><i class="fab fa-linkedin"> Linkedin</i></a>
+                    </li>
+                    <li>
+                        <a class="nav-link habilitada fs-4" target="_blank" href="https://github.com/"><i class="fab fa-github"> Github</i></a>
+                    </li>
+                </ul>
+            </div>  
+            <div class="proyecto">
+                <h3>Proyecto realizado con:</h3>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                    <li>Scss</li>
+                    <li>javascript</li>
+                </ul>
+            </div>           
+        </nav>
+    </footer><!--Fin Footer--> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+    <script src="../js/practica.js"></script>
+</body>
+</html>
+

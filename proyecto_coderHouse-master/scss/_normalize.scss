@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif !important;
+}
+
+body {
+    background-color: black !important;
+    //background-image: url(../multimedia/DSC_1900.jpg) !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+ul, li {
+    list-style: none;
+    list-style-type: none !important;
+}

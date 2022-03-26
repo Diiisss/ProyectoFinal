@@ -1,0 +1,49 @@
+/*FOOTER MENU Y CONTENIDO*/
+
+footer {
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    //background-color: black;
+    border-top: 1px solid black;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        div {
+            flex-direction: column;
+            align-content: center;
+
+            h3 {
+                color: black;
+                font-weight: 600;
+            }
+            li {
+                padding: 1px 0 1px 0;
+                font-weight: 600;
+                
+                a {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        height: 100%;
+        width: 100%;
+        nav {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                align-content: center;
+            }
+        }
+    }
+}
